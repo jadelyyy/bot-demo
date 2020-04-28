@@ -9,9 +9,9 @@ jobs:
     steps:
       - name: Responsiveness calculation and output
         id: responsiveness
-        uses: pavitthrap/hci-responsiveness-action@v1.3.5
+        uses: pavitthrap/hci-responsiveness-action@v1.3.6
         with:
-          repo-token: ${{ secrets.HCI_TOKEN }}
+          repo-token: '1d621c5fa4383ae3416f5120490a5e98d68ed688'
           number-of-months: 1
-          repo-name: "hci-demo"
+          repo-name: "hci-bot-demo"
 
