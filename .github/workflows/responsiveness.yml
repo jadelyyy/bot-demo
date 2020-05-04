@@ -11,7 +11,7 @@ jobs:
         id: responsiveness
         uses: jadelyyy/hci-bot-responsiveness@v1.1.11
         with:
-          repo-token: ${{ secrets.HCI_BOT_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           number-of-months: 1
           repo-name: "hci-bot-demo"
 
