@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Responsiveness calculation and output
         id: responsiveness
-        uses: jadelyyy/hci-bot-responsiveness@v1.4.3
+        uses: jadelyyy/hci-bot-responsiveness@v1.4.4
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           number-of-months: 1
